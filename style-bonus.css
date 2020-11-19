@@ -1,0 +1,18 @@
+[class*="col-"]{
+  background: white;
+  height: 50px;
+  border: 1px solid grey;
+}
+
+.red{
+  background-color: red;
+}
+.darkred{
+  background-color: darkred;
+}
+.black{
+  background-color: black;
+}
+.grey{
+  background-color: grey;
+}
