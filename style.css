@@ -1,0 +1,22 @@
+[class*="col-"]{
+  border: 1px solid black;
+  background: pink;
+  height: 300px;
+  text-align: center;
+  line-height: 300px;
+}
+
+
+[class*="col-"] .container [class*="col-"]{
+  line-height: normal;
+  height: 280px;
+  background-color: lightcoral;
+  border-color: white;
+  position: relative;
+}
+ .posizione{
+ position: absolute;
+ transform: translate(-50%,-50%);
+ top: 50%;
+ left: 50%;
+}
